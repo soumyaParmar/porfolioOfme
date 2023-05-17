@@ -3,7 +3,7 @@
     display: flex;
     height: 80vh;
     width: 99vw;
-    background-image: url("/photo/about.jpg");
+    background-image: url("photo/about.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
