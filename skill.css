@@ -1,0 +1,72 @@
+#third{  
+    margin-top: -67px;
+    height: 100vh;
+}
+.skil{
+    background-image: url("/photo/background3.jpg");
+    background-size: cover;
+   height: 100vh;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.detail img{
+    width: 40px;
+    height: 40px;
+}
+.detail summary{
+    font-size: 30px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-bottom: 10px solid white ;
+    border-right: 10px solid white;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    color: black;
+    transition: 0.5s;
+    animation: ex2 5s linear infinite
+}
+
+.detail summary:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.para2 p{
+    font-size: 70px;
+    color:whitesmoke;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.para2 span{
+    color: red;
+}
+.d1{
+    background-color: bisque;
+    border-radius: 20px;
+    
+}
+.d2{
+    background-color: bisque;
+    border-radius: 20px;
+    
+}
+.d3{
+    background-color: bisque;
+    border-radius: 20px;
+   
+}
+.detail p{
+    color: black;
+    padding-left: 20px;
+}
+.p4,.p5,.p6{
+    padding-bottom: 20px;
+    
+}

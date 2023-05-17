@@ -1,0 +1,102 @@
+#fourth{
+    height: 100vh;
+}
+.wrk{
+    background-image: url("/photo/work.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.para3{
+     font-size:80px;
+}
+.para3 p{
+    margin: 0;
+    padding: 50px;
+}
+.para3 span{
+    color: red;
+}
+.w1{
+    width: 300px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    padding-bottom:40px ;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.w3{
+    width: 300px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    color: aliceblue;
+    padding-bottom: 40px;
+    transition: 0.3s;
+}
+.detail1{
+    cursor: pointer;
+}
+.detail2 , .detail3{
+    padding: 20px;
+}
+.detail2 summary{
+    padding: 10px;
+    cursor: pointer;
+}
+.detail3 summary{
+    padding: 10px;
+    cursor: pointer;
+}
+.detail4 summary{
+    cursor: pointer;
+}
+.detail4 button{
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.w1:hover{
+    transform: scale(0.99);
+    border-radius: 20px;
+    width: 89vw;
+}
+.w3:hover{
+    transform: scale(0.99);
+    border-radius: 20px;
+    width: 89vw;
+}
+.w4{
+    width: 300px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    color: aliceblue;
+    padding-bottom: 40px;
+    transition: 0.3s;
+}
+.detail5 summary{
+    cursor: pointer;
+}
+.w4:hover{
+    transform: scale(0.99);
+    border-radius: 20px;
+    width: 89vw;
+}

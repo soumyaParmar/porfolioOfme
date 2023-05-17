@@ -1,0 +1,19 @@
+#fifth{ 
+    margin-top: 5px;
+    display: flex;
+    height: 80vh;
+    width: 99vw;
+    background-image: url("/photo/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+.abt{
+    
+    width: 50vw;
+    height: 30vh;
+    color: aliceblue;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}

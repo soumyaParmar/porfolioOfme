@@ -1,0 +1,74 @@
+
+#second{
+    background-image: url("/photo/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+    
+}
+.inner1{
+    padding-top: 80px;
+    min-width: 800px;
+    display: flex;
+    height: 60vh;
+    width: 96vw;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.p1{
+    font-size: 40px;
+}
+.helo{
+    color: red;
+}
+.p2{
+    font-size: 30px;
+}
+.p3{
+    font-size: 30px;
+    color: rgb(255, 200, 0);
+}
+.resume{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(161, 226, 161);
+    box-shadow: 5px 10px 30px 1px black;
+    margin-left: 10px;
+}
+.hire{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(161, 226, 161);
+    box-shadow: 5px 10px 30px 1px black;
+    margin-left: 10px;
+}
+.resume:hover{
+    cursor: pointer;
+    background-color: rgb(13, 180, 247);
+}
+.hire:hover{
+    cursor: pointer;
+    background-color:rgb(13, 180, 247);
+}
+.photo{
+    padding: 20px 20px 20px 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 10px 30px 1px black;
+    animation-name: ex;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.img{
+    width: 350px;
+    
+   
+}
+@keyframes ex {
+    0% {rotate: -5deg;}
+    50%{rotate: 5deg;}
+    100%{rotate :-5deg;}
+}

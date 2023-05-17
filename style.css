@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0px;
+   
+}
+
+#header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    width: 98.65%;
+    z-index: 1;
+}
+.left{
+    min-width: 300px;
+    max-width: 1000px;
+}
+.para1{
+    color: aliceblue;
+    font-size: 60px;
+    margin: 0px;
+}
+.po{
+    color: red;
+}
+
+.right{
+    min-width: 500px;
+    max-width: 1000px;
+}
+a{
+    text-decoration: none;
+}
+
+.home{
+    
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px; 
+    
+    
+}
+.skill{
+    
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px; 
+    
+}
+.work{
+    
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px; 
+    
+}
+.contact{
+    
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px; 
+    
+}
+.about{
+    
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px; 
+    
+}
+label{
+    transition: 0.5s;
+    background-color: white;
+}
+.about:hover ,.home:hover, .skill:hover, .work:hover, .contact:hover{
+    font-size: 25px;
+    background-color: rgb(63, 132, 235);
+    border: none;
+    padding: 10px;
+}
