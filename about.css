@@ -1,7 +1,7 @@
 #sixth{
     height: 80vh;
     margin-top: 5px;
-    background-image: url("/photo/contact.jpg");
+    background-image: url("photo/contact.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
