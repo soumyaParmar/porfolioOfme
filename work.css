@@ -2,7 +2,7 @@
     height: 100vh;
 }
 .wrk{
-    background-image: url("/photo/work.jpg");
+    background-image: url("photo/work.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
