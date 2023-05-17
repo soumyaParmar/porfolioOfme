@@ -3,7 +3,7 @@
     height: 100vh;
 }
 .skil{
-    background-image: url("/photo/background3.jpg");
+    background-image: url("photo/background3.jpg");
     background-size: cover;
    height: 100vh;
 }
